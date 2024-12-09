@@ -7,6 +7,6 @@ Now for the  LDROBOT D500 (LD19 or LD500) lidar is an affordable, lightweight 2D
 ![lidar](https://github.com/user-attachments/assets/a0d82a6d-dfd1-4108-b8c8-f5dbef295172)
 
 
-  The lidar to raspberry pi is via usb 
+  The lidar to raspberry pi connection is via usb which makes it more versatile 
   
 ![rasp+lidar](https://github.com/user-attachments/assets/1fc4c997-416d-479d-8e99-bb57e97ec099)

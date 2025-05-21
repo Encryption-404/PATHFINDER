@@ -1,0 +1,17 @@
+<launch>
+  <!-- Disable Odometry -->
+  <param name="use_odom" value="true" />
+
+  <!-- Start Hector Mapping -->
+  <node pkg="hector_slam" type="hector_mapping" name="hector_mapping" out>
+    <remap from="scan" to="/map" />
+  </node>
+
+  <!-- Start the Transform Publisher if needed -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="static_tran>
+
+  <!-- Optional: If you want to visualize in RViz -->
+   <node name="rviz" pkg="rviz" type="rviz" args="-d /home/alex/Desktop/d>
+    <param name="config" value="$(find hector_slam)/launch/hector_slam.rv>
+  </node>
+</launch>
